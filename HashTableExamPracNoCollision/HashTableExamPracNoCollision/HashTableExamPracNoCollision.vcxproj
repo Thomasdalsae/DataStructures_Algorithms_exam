@@ -155,9 +155,12 @@
     </ItemDefinitionGroup>
     <ItemGroup>
         <ClCompile Include="HashTableExamPracNoCollision.cpp" />
+        <ClCompile Include="Person.cpp" />
     </ItemGroup>
     <ItemGroup>
-        <ClInclude Include="People.h" />
+        <ClInclude Include="HashTable.h" />
+        <ClInclude Include="Initializer.h" />
+        <ClInclude Include="Node.h" />
         <ClInclude Include="Person.h" />
     </ItemGroup>
     <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
