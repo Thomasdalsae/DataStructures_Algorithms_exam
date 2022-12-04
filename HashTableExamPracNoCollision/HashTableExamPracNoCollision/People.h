@@ -21,8 +21,8 @@ public:
     size_t GetLength(const std::string s) { return s.size(); }
 
     //Functions
-    size_t hashFunc(string name);
-    void init_hash_table();
+    size_t hashFunc(string name); // Makes a hash from the name
+    void init_hash_table(); 
     void print_table();
     bool hash_table_insert(Person<T> p);
     Person<T> hash_table_lookup(string name);
@@ -120,7 +120,7 @@ bool Hash_Table<T>::hash_table_insert(Person<T> p)
         if (tmp == nullptr)
         {
            
-            //REEEtarded(not really) way of securing data, returning a dummy to make people unable to manipulate the Hashtable Linked list.
+            // way of securing data, returning a dummy to make people unable to manipulate the Hashtable Linked list.
             Person<T> REEE = Person<T>();
             REEE.Name = N_A_PERSON;
             return REEE;
@@ -133,26 +133,28 @@ bool Hash_Table<T>::hash_table_insert(Person<T> p)
     template <typename T>
     void Hash_Table<T>::hash_table_delete(string name)
     {
-        int index = hashFunc(name);
-        Person<T>* tmp = hash_table[index];
+        
+        int index = hashFunc(name);//Start index will be the hash value of the name. quicker to find 
+        Person<T>* tmp = hash_table[index]; //makes a temp  of the contents at the given index
         Person<T>* prev = nullptr;
+        //looping while trying to find a match in the hashtable.
         while (tmp != nullptr && tmp->Name != name)
         {
             prev = tmp;
             tmp = tmp->Next;
         }
-        if (tmp == nullptr)
+        if (tmp == nullptr) // if tmp is null just give user message that there is noone with that name
         {
             cout << "Noone with the name of : " << name << " is in the hash table" << endl;
             return ;
         }
-        if (prev == nullptr)
+        if (prev == nullptr) // if prev equals nullptr, there is head in the linked list on hashtable
         {
             cout << "Deleting head node which contain name : " << name << " from the hash table" << endl;
             // deleteing the head
             hash_table[index] = tmp->Next;
         }
-        else
+        else // if temp is not a null or prev is not a nullptr there must be a match in the hashtable. after finding it. delete
         {
             cout << "Deleting : " << name << " from the hash table" << endl;
             prev->Next = tmp->Next;

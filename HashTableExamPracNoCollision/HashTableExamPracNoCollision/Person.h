@@ -7,6 +7,7 @@ public:
     T Data{};
     std::string Name;
     int age;
+    float money;
  
     // Next ptr for linked list
     Person* Next = nullptr;
