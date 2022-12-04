@@ -7,13 +7,13 @@ int main(int argc, char* argv[])
     //person IntHashTable = new person<T>(TABLE_SIZE);
     
     //Hash_Table<int>* Table = new Hash_Table<int>; //<-- This for int
-    Hash_Table<string>* Table = new Hash_Table<string>; // this for String
+    Hash_Table<int,string>* Table = new Hash_Table<int,string>; // this for String
 
     Table->init_hash_table();
     Table->print_table();
 
     
-    //  Person<int> Jacob = {1,"Jacob", 56};
+    Person<int,string> Jacob = {1,"Worker"};
     // Person<int> Kate = {2,"Kate", 36};
     // Person<int> Mpho = {3,"Mpho", 14};
     //  Person<int> Sarah = {4,"Sarah", 34};
@@ -23,7 +23,7 @@ int main(int argc, char* argv[])
     // Person<int> Robert = {8,"Robert", 74};
     // Person<int> Jane = {9,"Jane", 64};
 
-    Person<string> Jacob = {"Person1", "Jacob", 56,734.23123f};
+    //Person<string> Jacob = {"Person1", "Jacob", 56,734.23123f};
     // Person<string> Kate = {"Person2", "Kate", 36};
     // Person<string> Mpho = {"Person3", "Mpho", 14};
     // Person<string> Sarah = {"Person4", "Sarah", 34};
@@ -34,7 +34,7 @@ int main(int argc, char* argv[])
     // Person<string> Jane = {"Person9", "Jane", 64};
 
 //inserting with the name,
-    Table->hash_table_insert(Jacob);
+    Table->hash_table_insert(905,"Jacob");
     // Table->hash_table_insert(Kate);
     // Table->hash_table_insert(Mpho);
     // Table->hash_table_insert(Sarah);
@@ -46,7 +46,7 @@ int main(int argc, char* argv[])
 
 
     Table->print_table();
-    Person<string> tmp = Table->hash_table_lookup("Jacob");
+    Person<int> tmp = Table->hash_table_lookup("Jacob");
     if (tmp.Name == N_A_PERSON)
     {
         cout << "Not found" << endl;
