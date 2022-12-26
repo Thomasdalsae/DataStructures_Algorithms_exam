@@ -1,0 +1,199 @@
+{
+  "main": {
+    "id": "6616e5107d7b643f",
+    "type": "split",
+    "children": [
+      {
+        "id": "c672c37b5de37266",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0ca743491e265a85",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Exam2022/Binary search trees.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2a5b6ab7d95b31f8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Udemy/Computer Graphics with Modern OpenGL and C++/What is GLEW.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5a3cab71664807db",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Udemy/Computer Graphics with Modern OpenGL and C++/What is GLEW.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ff1a2fde17c1be9d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Udemy/Computer Graphics with Modern OpenGL and C++/Shaders and the Rendering Pipeline.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "2e49ac40463d881c",
+    "type": "split",
+    "children": [
+      {
+        "id": "29dd8b52f8a53abe",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5f13283f88ab2165",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "1dc824a783e56ec6",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "0d8c6b6ac573f42e",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "e0c64d11f2b43a79",
+    "type": "split",
+    "children": [
+      {
+        "id": "1212a446dcd18f96",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "55c2b6274af210ae",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Udemy/Computer Graphics with Modern OpenGL and C++/Shaders and the Rendering Pipeline.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f2efa5cd955b61f6",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Udemy/Computer Graphics with Modern OpenGL and C++/Shaders and the Rendering Pipeline.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "d6db463a6275f910",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "a1c05b0f5ab20bd5",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Udemy/Computer Graphics with Modern OpenGL and C++/Shaders and the Rendering Pipeline.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "5f13283f88ab2165",
+  "lastOpenFiles": [
+    "Untitled.canvas",
+    "Untitled 1.canvas",
+    "Udemy/Computer Graphics with Modern OpenGL and C++/Shaders and the Rendering Pipeline.md",
+    "Udemy/Computer Graphics with Modern OpenGL and C++/What is GLEW.md",
+    "Exam2022/Binary search trees.md",
+    "Sorting algortihms.md",
+    "Time.md",
+    "Queues.md",
+    "Exam2022/Overload Operators.md",
+    "Exam2022/Pasted image 20221204215439.png"
+  ]
+}
